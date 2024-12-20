@@ -67,8 +67,8 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G      &kp LS(LG(S))                    &trans           &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                        &kp Y        &kp U  &lt 5 I    &kp O    &kp MINUS
+&kp A             &kp S         &kp D         &kp F                        &kp G      &kp LS(LG(S))                    &trans           &kp H        &kp J  &kp K      &kp L    &kp P
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B      &kp COLON                        &kp RIGHT_SHIFT  &kp N        &kp M  &kp COMMA  &kp DOT  &kp RIGHT_CONTROL
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 3 INT_HENKAN  &kp SPACE  &lt_to_layer_0 2 INT_MUHENKAN    &kp BACKSPACE    &lt 1 ENTER                             &kp DEL
             >;
@@ -87,10 +87,10 @@
 
         NUM {
             bindings = <
-&kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS                                             &kp PERCENT  &kp APOSTROPHE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
-&kp N0     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA   &kp LC(LA(KP_NUMBER_0))    &trans        &kp MINUS    &kp AMPERSAND   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION
-&kp UNDER  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD  &kp EQUAL                  &kp NUMBER_0  &kp COLON    &kp ASTRK       &kp LESS_THAN         &kp GREATER_THAN       &kp BACKSLASH
-&kp MINUS  &trans        &trans        &trans        &trans      &trans                     &trans        &trans                                                                    &kp PIPE
+&kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS                                             &kp PERCENT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
+&kp N0     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COMMA   &kp LC(LA(KP_NUMBER_0))    &trans        &kp MINUS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION
+&kp UNDER  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PERIOD  &kp EQUAL                  &kp NUMBER_0  &kp COLON    &kp LESS_THAN         &kp GREATER_THAN       &kp GREATER_THAN       &kp BACKSLASH
+&kp MINUS  &trans        &trans        &trans        &trans      &trans                     &trans        &trans                                                                           &kp PIPE
             >;
         };
 
